@@ -1,6 +1,6 @@
 FROM ubuntu
 
-RUN apt-get update && apt-get install -y curl build-essential python sudo bash
+RUN apt-get update && apt-get install -y curl build-essential python bash
 
 RUN \
   curl https://raw.githubusercontent.com/meteor/meteor/master/scripts/admin/launch-meteor > /usr/local/bin/meteor && \
