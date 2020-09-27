@@ -1,0 +1,1 @@
+# Meteor base image for building apps in docker

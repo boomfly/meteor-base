@@ -1,0 +1,14 @@
+{
+  "name": "meteor-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "docker build -t boomfly/meteor-base .",
+    "push": "docker tag boomfly/meteor-base boomfly/meteor-base:latest && docker push boomfly/meteor-base:latest",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
